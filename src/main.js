@@ -5,6 +5,9 @@
 
 import { APOSTILA_DATA as D } from './data.js';
 
+// Custom cover image override
+D.cover = './cover.png';
+
 import { storage }                          from './modules/storage.js';
 import { toast }                            from './modules/toast.js';
 import { loadPrefs, applyPrefs,
